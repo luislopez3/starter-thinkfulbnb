@@ -66,6 +66,8 @@ header {
 
 header nav ul li {
   list-style-type: none;
+  display: inline-block;
+  margin: 10px;
 }
 
 header nav ul li a {
