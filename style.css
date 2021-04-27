@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 450px;
 }
 
 /* ---  Groups & Items --- */
@@ -43,7 +43,7 @@ main img {
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 20px;
 }
 
 .item-double {
@@ -89,12 +89,13 @@ form {
 
 form label {
   font-weight: bold;
+  padding: 35px;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 200px;
 }
 
 form button {
@@ -119,3 +120,41 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin: 14px 0;
+    padding-top: 6px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item {
+    flex: 1;
+    margin: 20px;
+  }
+
+  .item-double {
+    flex: 2;
+    flex-direction: row;
+    padding: 10px;
+  }
+}
