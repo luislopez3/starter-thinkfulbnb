@@ -31,7 +31,12 @@ section.alternate-background {
 }
 
 main img {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
+}
+
+fieldset {
+  border: 0;
 }
 
 /* ---  Groups & Items --- */
@@ -60,7 +65,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -89,7 +94,6 @@ form {
 
 form label {
   font-weight: bold;
-  padding: 35px;
 }
 
 form select,
